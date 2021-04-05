@@ -1,8 +1,8 @@
 import json
 from ai_hub import inferServer
-import logging
-log = logging.getLogger("werkzeug")
-log.setLevel(logging.ERROR)
+# import logging
+# log = logging.getLogger("werkzeug")
+# log.setLevel(logging.ERROR)
 
 
 class MyInfer(inferServer):
