@@ -169,7 +169,10 @@ print(requests.post("http://127.0.0.1:8080/tccapi", json=input3).content.decode(
 input4 = {'address_log': [['server_47547', 12, 0, 15, 35906, 1016, '2019-06-01 00:02:36', 1.0, 1.0]],
                           'kernel_log': [
                               ['2019-06-01 00:02:37', nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan,
-                               nan, nan, nan, nan, nan, 1.0, nan, nan, nan, nan, nan, 'server_47547', 1, 1.0]],
+                               nan, nan, nan, nan, nan, 1.0, nan, nan, nan, nan, nan, 'server_47547', 1, 1.0],
+                              ['2019-06-01 00:02:37', nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan,
+                               nan, nan, nan, nan, nan, 1.0, nan, nan, nan, nan, nan, 'server_47548', 1, 1.0]
+                          ],
                           'mce_log': [['server_47547', 'Z', 0.0, '2019-06-01 00:02:36', 1, 1.0],
                                       ['server_47547', 'Z', nan, '2019-06-01 00:02:36', 1, 1.0]]}
 print("test case 4")

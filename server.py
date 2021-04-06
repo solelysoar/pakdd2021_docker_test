@@ -34,8 +34,7 @@ class MyInfer(inferServer):
             if 'kernel_log' in data:
                 kernel_data = data['kernel_log']
                 if isinstance(kernel_data, list):
-                    for item in kernel_data:
-                        res.append({'serial_number': item[-3], 'pti': 5})
+                    res.append({'serial_number': kernel_data[0][-3], 'pti': 5})
             print(json.dumps(res))
         return json.dumps(res)
 
