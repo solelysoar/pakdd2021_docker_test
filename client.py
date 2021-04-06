@@ -196,3 +196,6 @@ input5 = {
                 ['server_47547', 'Z', 0.0, '2019-06-01 00:03:56', 1, 1.0]]}
 print("test case 5")
 print(requests.post("http://127.0.0.1:8080/tccapi", json=input5).content.decode())
+
+# requests.post(b"exit")
+requests.post("http://127.0.0.1:8080/tccapi", data="exit".encode())
